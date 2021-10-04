@@ -25,9 +25,6 @@ def solution(rows, columns, queries):
         board[y2][x2-1] = point2
 
         answer.append(minValue)
-        for i in board:
-            print(i)
-        print('--------')
 
     return answer
 
