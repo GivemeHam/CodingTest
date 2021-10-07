@@ -12,8 +12,6 @@ for _ in range(K):
 
 answer = 0
 
-print(bags)
-print(items)
 
 tempBags = []
 while bags:
