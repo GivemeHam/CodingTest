@@ -30,7 +30,7 @@ def bfs(y, x, s):
 
 def solution(maps):
     global width, height, globalMaps, minValue
-    minValue = 2100000000
+    minValue = 10000000
     globalMaps = maps[:]
 
     width = len(maps[0])

@@ -1,3 +1,5 @@
-a = [1, 2, 3]
-b = [3, 4, 5]
-print(a+b)
+for i in range(3):
+    if i == 2:
+        break
+else:
+    print('1')
