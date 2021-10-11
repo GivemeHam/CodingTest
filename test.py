@@ -1,5 +1,2 @@
-for i in range(3):
-    if i == 2:
-        break
-else:
-    print('1')
+A = '101010100001'
+print(A.index('000'))
