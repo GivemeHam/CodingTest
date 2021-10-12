@@ -1,2 +1,6 @@
-A = '101010100001'
-print(A.index('000'))
+
+def D(n):
+    return n*2 if n*2 <= 9999 else (n*2) % 10000
+
+
+print(D(1111111))

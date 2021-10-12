@@ -35,7 +35,6 @@ for i in range(0, s-2, 2):
 
 a = set(a)
 b = set(b)
-print(a, b)
 for aa in a:
     if aa >= n:
         answer += aa-n+1
