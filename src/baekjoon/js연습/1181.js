@@ -21,7 +21,6 @@ rl.on("line", function (line) {
     if (a < b) return -1;
     return 0;
   });
-  console.log(input);
   input.map((e) => console.log(e));
   process.exit();
 });
